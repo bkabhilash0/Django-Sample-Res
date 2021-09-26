@@ -1,0 +1,17 @@
+{% extends 'base.html' %} {% load static %} {% block title %}Restaurant -
+Contact{% endblock title %} {% block content %}
+<div class="title">
+  <h1>Contact Us</h1>
+</div>
+<div class="contact__content abt">
+  <img src="{% static 'images/contact.jfif' %}" alt="" />
+  <div>
+    <h1>Reach Us...</h1>
+    <ul>
+      <li><span>Phone</span>: +91 123456789</li>
+      <li><span>Email</span>: example@example.com</li>
+      <li><span>Address</span>: XYZ, Mars, Milkyway Galaxy..</li>
+    </ul>
+  </div>
+</div>
+{% endblock content %}
